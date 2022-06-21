@@ -9,7 +9,7 @@ gem 'rails', '~> 5.2.8'
 # Use sqlite3 as the database for Active Record
 #Postgress for Development and test database
 gem 'sqlite3',group: [:development,:test]
-
+gem 'erb-formatter',group: [:development,:test]
 #Postgress for production database
 gem 'pg',group: :production
 #12 factor for Heroku
@@ -23,6 +23,8 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
+#gem bootstrap
+gem "bootstrap-sass"
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
